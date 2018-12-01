@@ -1,5 +1,6 @@
 # QT-simple-practice
-Some small projects done by QT
+
+小学期QT课写的一些小作业和大作业
 
 [QT 登陆对话框输入用户名密码](http://leflacon.github.io/53180a5f/)
 
