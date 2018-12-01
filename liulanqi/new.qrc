@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imageee/1.jpg</file>
+        <file>imageee/90a3cb17e0d2b54e31e7e94a843d9c3d.png</file>
+        <file>imageee/星星 (1).png</file>
+        <file>imageee/星星 (2).png</file>
+        <file>imageee/星星_选中 (1).png</file>
+        <file>imageee/星星_选中 (2).png</file>
+        <file>imageee/星星_选中 (3).png</file>
+        <file>imageee/星星_选中 (4).png</file>
+        <file>imageee/星星_选中 (5).png</file>
+        <file>imageee/星星_选中 (6).png</file>
+        <file>imageee/星星_选中 (7).png</file>
+        <file>imageee/星星_选中 (8).png</file>
+        <file>imageee/星星_选中.png</file>
+        <file>imageee/星星.png</file>
+    </qresource>
+</RCC>

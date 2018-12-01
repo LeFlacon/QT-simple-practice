@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="floatable">
+    <bool>true</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action"/>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>工具栏设置</string>
+    </property>
+    <widget class="QMenu" name="menu_4">
+     <property name="title">
+      <string>风格</string>
+     </property>
+     <addaction name="actionfusion"/>
+     <addaction name="actionmacintosh"/>
+     <addaction name="actionWindows"/>
+    </widget>
+    <addaction name="actionxianshi"/>
+    <addaction name="actionyincang"/>
+    <addaction name="menu_4"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionabout"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>截图工具</string>
+    </property>
+    <addaction name="actionfuzhi"/>
+    <addaction name="actionsave"/>
+    <addaction name="actionyoujian"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionxianshi">
+   <property name="icon">
+    <iconset resource="imagee.qrc">
+     <normaloff>:/new/imageee/7.png</normaloff>:/new/imageee/7.png</iconset>
+   </property>
+   <property name="text">
+    <string>显示</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+S</string>
+   </property>
+  </action>
+  <action name="actionyincang">
+   <property name="icon">
+    <iconset resource="imagee.qrc">
+     <normaloff>:/new/imageee/6.png</normaloff>:/new/imageee/6.png</iconset>
+   </property>
+   <property name="text">
+    <string>隐藏</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+H</string>
+   </property>
+  </action>
+  <action name="actionabout">
+   <property name="icon">
+    <iconset resource="imagee.qrc">
+     <normaloff>:/new/imageee/9.png</normaloff>:/new/imageee/9.png</iconset>
+   </property>
+   <property name="text">
+    <string>about</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+A</string>
+   </property>
+  </action>
+  <action name="actionfusion">
+   <property name="icon">
+    <iconset resource="imagee.qrc">
+     <normaloff>:/new/imageee/22.png</normaloff>:/new/imageee/22.png</iconset>
+   </property>
+   <property name="text">
+    <string>fusion</string>
+   </property>
+  </action>
+  <action name="actionmacintosh">
+   <property name="icon">
+    <iconset resource="imagee.qrc">
+     <normaloff>:/new/imageee/33.png</normaloff>:/new/imageee/33.png</iconset>
+   </property>
+   <property name="text">
+    <string>macintosh</string>
+   </property>
+  </action>
+  <action name="actionWindows">
+   <property name="icon">
+    <iconset resource="imagee.qrc">
+     <normaloff>:/new/imageee/44.png</normaloff>:/new/imageee/44.png</iconset>
+   </property>
+   <property name="text">
+    <string>Windows</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="imagee.qrc">
+     <normaloff>:/new/imageee/55.png</normaloff>:/new/imageee/55.png</iconset>
+   </property>
+   <property name="text">
+    <string>截图</string>
+   </property>
+  </action>
+  <action name="actionfuzhi">
+   <property name="icon">
+    <iconset resource="imagee.qrc">
+     <normaloff>:/new/imageee/5.png</normaloff>:/new/imageee/5.png</iconset>
+   </property>
+   <property name="text">
+    <string>复制到剪切板</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+J</string>
+   </property>
+  </action>
+  <action name="actionsave">
+   <property name="icon">
+    <iconset resource="imagee.qrc">
+     <normaloff>:/new/imageee/11.png</normaloff>:/new/imageee/11.png</iconset>
+   </property>
+   <property name="text">
+    <string>另存为</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionyoujian">
+   <property name="icon">
+    <iconset resource="imagee.qrc">
+     <normaloff>:/new/imageee/4.png</normaloff>:/new/imageee/4.png</iconset>
+   </property>
+   <property name="text">
+    <string>开启右键截图菜单</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="imagee.qrc"/>
+ </resources>
+ <connections/>
+</ui>

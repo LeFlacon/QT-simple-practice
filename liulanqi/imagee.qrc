@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>imageee/1.jpg</file>
+        <file>imageee/2.png</file>
+        <file>imageee/3.png</file>
+        <file>imageee/4.png</file>
+        <file>imageee/5.png</file>
+        <file>imageee/6.png</file>
+        <file>imageee/7.png</file>
+        <file>imageee/8.png</file>
+        <file>imageee/9.png</file>
+        <file>imageee/11.png</file>
+        <file>imageee/22.png</file>
+        <file>imageee/33.png</file>
+        <file>imageee/44.png</file>
+        <file>imageee/55.png</file>
+    </qresource>
+</RCC>
